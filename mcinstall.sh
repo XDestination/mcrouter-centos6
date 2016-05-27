@@ -18,6 +18,10 @@ yum install -y glibc-devel.i686 glibc-devel.x86_64 gcc gcc-c++ zlib-devel
 yum install -y gmp-devel mpfr-devel libmpc-devel
 yum install -y gflags-devel
 
+# install ragle
+wget "ftp://ftp.pbone.net/mirror/ftp5.gwdg.de/pub/opensuse/repositories/home:/csbuild:/centosextra/CentOS_CentOS-6/x86_64/ragel-6.6-2.3.x86_64.rpm"
+rpm -ivh ragel-6.6-2.3.x86_64.rpm
+
 #gflags-1.3-7.el6.x86_64
 #gmp-4.3.1-7.el6_2.2.x86_64
 #libmpc-0.8-3.el6.x86_64
